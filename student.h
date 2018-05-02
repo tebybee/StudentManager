@@ -5,17 +5,11 @@ using namespace std;
 class student
 {
 private:
-String firstName;
-String lastName;
+string firstName;
+string lastName;
 public:
-void setName(String, String);
-{
-    
-}
-String fullName()
-{
-    
-}
+void setName(string s1, string s2);
+string fullName();
 };
 #endif
 
